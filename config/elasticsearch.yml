@@ -1,0 +1,10 @@
+cluster.name: elasticsearch
+node.data: true
+http.port: 9200
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /data/plugins
+  work: /data/work
