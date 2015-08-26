@@ -13,7 +13,7 @@ ENV TERM linux
 # Work around initramfs-tools running on kernel 'upgrade': <http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=594189>
 ENV INITRD No
 
-ENV ES_PKG_NAME elasticsearch-1.5.2
+ENV ES_PKG_NAME elasticsearch-1.7.1
 
 # Install ElasticSearch.
 RUN \
